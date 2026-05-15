@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>登录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, 'Roboto', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+
+        /* 主卡片 */
+        .login-container {
+            width: 100%;
+            max-width: 440px;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(8px);
+            border-radius: 2rem;
+            padding: 2rem 1.8rem 2.5rem;
+            box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+            transition: all 0.2s ease;
+        }
+
+        /* 品牌/标题区 */
+        .brand {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .brand h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #c084fc, #60a5fa);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+        }
+        .brand p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* 输入框组 */
+        .input-group {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .input-group label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #cbd5e1;
+            letter-spacing: 0.3px;
+            margin-left: 0.25rem;
+        }
+        .input-field {
+            display: flex;
+            align-items: center;
+            background: #1e293b;
+            border-radius: 1.25rem;
+            border: 1px solid #334155;
+            transition: all 0.2s;
+            padding: 0.1rem 1rem;
+        }
+        .input-field:focus-within {
+            border-color: #8b5cf6;
+            box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+            background: #0f172a;
+        }
+        .input-field i {
+            color: #5b6e8c;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin-right: 0.6rem;
+        }
+        .input-field input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            padding: 0.9rem 0;
+            font-size: 1rem;
+            color: #f1f5f9;
+            outline: none;
+            font-weight: 500;
+        }
+        .input-field input::placeholder {
+            color: #475569;
+            font-weight: 400;
+        }
+
+        /* 选项行 (记住我 + 忘记密码) */
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0.6rem 0 1.6rem 0;
+            font-size: 0.85rem;
+        }
+        .checkbox {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            color: #cbd5e6;
+        }
+        .checkbox input {
+            width: 1rem;
+            height: 1rem;
+            accent-color: #8b5cf6;
+            cursor: pointer;
+        }
+        .forgot-link {
+            color: #a78bfa;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .forgot-link:hover {
+            color: #c4b5fd;
+            text-decoration: underline;
+        }
+
+        /* 登录按钮 */
+        .login-btn {
+            background: linear-gradient(105deg, #7c3aed, #a855f7);
+            width: 100%;
+            border: none;
+            border-radius: 2rem;
+            padding: 0.85rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            transition: all 0.25s;
+            box-shadow: 0 8px 20px -6px rgba(124, 58, 237, 0.3);
+            letter-spacing: 0.3px;
+            margin-bottom: 1.2rem;
+        }
+        .login-btn:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(105deg, #8b5cf6, #c084fc);
+            box-shadow: 0 12px 24px -8px rgba(139, 92, 246, 0.5);
+        }
+        .login-btn:active {
+            transform: translateY(1px);
+        }
+
+        /* 注册引导 */
+        .signup-tip {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            border-top: 1px solid #334155;
+            padding-top: 1.5rem;
+            margin-top: 0.2rem;
+        }
+        .signup-tip a {
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 0.4rem;
+        }
+        .signup-tip a:hover {
+            color: #e9d5ff;
+            text-decoration: underline;
+        }
+
+        /* 错误提示消息 */
+        .msg-tip {
+            background: rgba(220, 38, 38, 0.15);
+            border-left: 3px solid #ef4444;
+            padding: 0.7rem 1rem;
+            border-radius: 1rem;
+            font-size: 0.8rem;
+            color: #fecaca;
+            margin-bottom: 1rem;
+            text-align: center;
+            transition: all 0.2s;
+            display: none;
+        }
+        .msg-tip.show {
+            display: block;
+        }
+
+        /* 简单响应式 */
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 1.6rem 1.2rem 2rem;
+            }
+            .brand h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="brand">
+        <h1>⛅ 欢迎回来</h1>
+        <p>注意隐私安全 不要输常用密码</p>
+    </div>
+
+    <!-- 动态提示区域 -->
+    <div id="errorMsg" class="msg-tip"></div>
+
+    <!-- 表单 -->
+    <form action="./login" method="get">
+        <div class="input-group">
+            <label>📧 邮箱 / 用户名</label>
+            <div class="input-field">
+                <i>👤</i>
+                <input type="text" id="username" name="username" placeholder="请输入用户名或邮箱" autocomplete="username" value="">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>🔒 密码</label>
+            <div class="input-field">
+                <i>🔑</i>
+                <input type="password" id="password" name="password" placeholder="请输入密码" autocomplete="current-password">
+            </div>
+        </div>
+
+        <div class="options">
+            <label class="checkbox">
+                <input type="checkbox" id="rememberMe"> 记住账号
+            </label>
+            <a href="#" class="forgot-link" id="forgotPwd">忘记密码？</a>
+        </div>
+
+        <button type="submit" class="login-btn">登 录</button>
+        
+        <div class="signup-tip">
+            还没有账号？<a href="#" id="signupLink">立即注册</a>
+        </div>
+    </form>
+</div>
+
+<script>
+    (function() {
+        // 获取 DOM 元素
+        const form = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const rememberCheck = document.getElementById('rememberMe');
+        const errorDiv = document.getElementById('errorMsg');
+
+        // 简单辅助函数显示错误
+        function showError(message) {
+            errorDiv.textContent = message;
+            errorDiv.classList.add('show');
+            // 3秒后自动淡隐
+            setTimeout(() => {
+                errorDiv.classList.remove('show');
+            }, 3000);
+        }
+
+        function clearError() {
+            errorDiv.classList.remove('show');
+            errorDiv.textContent = '';
+        }
+
+        // 演示用：模拟“记住账号”存储 (仅演示前端效果, 不存储真实敏感数据)
+        function loadRememberedUser() {
+            const savedUser = localStorage.getItem('demo_username');
+            const savedFlag = localStorage.getItem('demo_remember') === 'true';
+            if (savedFlag && savedUser) {
+                usernameInput.value = savedUser;
+                rememberCheck.checked = true;
+            } else {
+                rememberCheck.checked = false;
+            }
+        }
+
+        function saveRemembered() {
+            if (rememberCheck.checked) {
+                localStorage.setItem('demo_username', usernameInput.value.trim());
+                localStorage.setItem('demo_remember', 'true');
+            } else {
+                localStorage.removeItem('demo_username');
+                localStorage.setItem('demo_remember', 'false');
+            }
+        }
+
+        // 简单验证逻辑（模拟前端校验，实际项目中可对接后端）
+        function validateLogin(username, password) {
+            if (!username || username.trim() === '') {
+                showError('❌ 用户名不能为空');
+                return false;
+            }
+            if (!password || password.trim() === '') {
+                showError('❌ 密码不能为空');
+                return false;
+            }
+            // 简单示例：演示任意非空即可通过（为了展示登录成功交互，避免太复杂）
+            // 实际可根据需求调整模拟账号
+            if (username.trim() === 'demo' && password.trim() === '123456') {
+                return { success: true, msg: '演示账号登录成功' };
+            }
+            // 也可以允许任何非空都算成功，但不友好，做一个更友好的模拟登录体验：
+            // 这里设定一个通用成功规则：只要长度>=3就提示成功（展示体验）
+            if (username.trim().length >= 2 && password.trim().length >= 2) {
+                return { success: true, msg: '登录成功！正在跳转控制台' };
+            }
+            return { success: false, msg: '账号或密码错误，试试 demo / 123456' };
+        }
+
+        // 处理登录提交
+        function onLogin(event) {
+            event.preventDefault();
+            clearError();
+
+            const username = usernameInput.value;
+            const password = passwordInput.value;
+            const result = validateLogin(username, password);
+            
+            if (result.success) {
+                // 如果勾选记住我，保存用户名
+                saveRemembered();
+                // 登录成功体验弹窗（不刷新页面）
+                alert(`✅ ${result.msg}\n欢迎回来，${username.trim()}！\n（演示模式，无后端跳转）`);
+                // 可在此处重定向或模拟跳转，例如 window.location.href = "/dashboard";
+                // 为了保留演示效果，仅展示提示
+                // 如果想模拟页面变化，可以简单改变一下界面样式
+                const btn = document.querySelector('.login-btn');
+                const originalText = btn.textContent;
+                btn.textContent = '✓ 登录成功';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 1500);
+                // 重置错误样式
+                usernameInput.style.borderColor = '';
+                passwordInput.style.borderColor = '';
+            } else {
+                showError(result.msg);
+                // 简单抖动效果 (轻微提示)
+                const container = document.querySelector('.login-container');
+                container.style.transform = 'translateX(4px)';
+                setTimeout(() => { container.style.transform = ''; }, 100);
+                setTimeout(() => { container.style.transform = 'translateX(-4px)'; }, 150);
+                setTimeout(() => { container.style.transform = ''; }, 250);
+            }
+        }
+
+        // 忘记密码模拟
+        function onForgotPwd(e) {
+            e.preventDefault();
+            alert('📩 演示模式：找回密码功能暂未接入，请联系管理员或点击“注册”体验。');
+        }
+
+        // 注册模拟
+        function onSignup(e) {
+            e.preventDefault();
+            alert('✨ 演示注册页面（未实际接入）\n您可以直接使用任意账号测试登录，或使用 demo / 123456');
+        }
+
+        // 初始化事件绑定 + 本地存储加载
+        function init() {
+            loadRememberedUser();
+            form.addEventListener('submit', onLogin);
+            const forgotBtn = document.getElementById('forgotPwd');
+            const signupBtn = document.getElementById('signupLink');
+            if (forgotBtn) forgotBtn.addEventListener('click', onForgotPwd);
+            if (signupBtn) signupBtn.addEventListener('click', onSignup);
+        }
+
+        init();
+    })();
+</script>
+</body>
+</html>

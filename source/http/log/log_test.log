@@ -1,0 +1,181 @@
+[126-4-13 20:25:48][INFO][../Server.hpp][1217] - new connection:0
+[126-4-13 20:25:48][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:49][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:50][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:51][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:52][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:53][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:54][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:55][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:56][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:25:57][INFO][Http.hpp][738] - client-0 visit /
+[126-4-13 20:26:27][INFO][../Server.hpp][1010] - client-0 left......
+[126-4-13 20:26:29][INFO][../Server.hpp][1217] - new connection:1
+[126-4-13 20:26:29][INFO][Http.hpp][738] - client-1 visit /zc
+[126-4-13 20:26:29][INFO][../Server.hpp][1010] - client-1 left......
+[126-4-13 20:26:48][INFO][../Server.hpp][1217] - new connection:2
+[126-4-13 20:26:48][INFO][Http.hpp][738] - client-2 visit /
+[126-4-13 20:26:49][INFO][Http.hpp][738] - client-2 visit /
+[126-4-13 20:26:50][INFO][../Server.hpp][1010] - client-2 left......
+[126-4-13 20:31:27][INFO][../Server.hpp][1217] - new connection:3
+[126-4-13 20:31:27][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:31:27][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:31:27][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:31:27][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:31:27][INFO][../Server.hpp][1010] - client-3 left......
+[126-4-13 20:31:57][INFO][../Server.hpp][1217] - new connection:4
+[126-4-13 20:32:26][INFO][../Server.hpp][1010] - client-4 left......
+[126-4-13 20:34:44][DEBUG][../Server.hpp][180] - create socket success
+[126-4-13 20:34:44][DEBUG][../Server.hpp][197] - bind success
+[126-4-13 20:34:44][DEBUG][../Server.hpp][210] - listen success
+[126-4-13 20:34:44][DEBUG][../Server.hpp][820] - lock : 135320620230336
+[126-4-13 20:34:44][DEBUG][../Server.hpp][820] - lock : 135320628623040
+[126-4-13 20:34:44][DEBUG][../Server.hpp][822] - 0x7b12c9ffbcb0
+[126-4-13 20:34:44][DEBUG][../Server.hpp][822] - 0x7b12c97facb0
+[126-4-13 20:34:44][DEBUG][../Server.hpp][820] - lock : 135320611837632
+[126-4-13 20:34:44][DEBUG][../Server.hpp][822] - 0x7b12c8ff9cb0
+[126-4-13 20:34:44][DEBUG][../Server.hpp][825] - unlock : 135320611837632
+[126-4-13 20:34:44][DEBUG][../Server.hpp][825] - unlock : 135320628623040
+[126-4-13 20:34:44][DEBUG][../Server.hpp][825] - unlock : 135320620230336
+[126-4-13 20:34:46][DEBUG][../Server.hpp][842] - thread wait: 135320636315456
+[126-4-13 20:34:46][DEBUG][../Server.hpp][843] - 0x7b12c9ffbcb0
+[126-4-13 20:34:46][DEBUG][../Server.hpp][844] - thread awake: 135320636315456
+[126-4-13 20:34:46][DEBUG][../Server.hpp][842] - thread wait: 135320636315456
+[126-4-13 20:34:46][DEBUG][../Server.hpp][843] - 0x7b12c97facb0
+[126-4-13 20:34:46][DEBUG][../Server.hpp][844] - thread awake: 135320636315456
+[126-4-13 20:34:46][DEBUG][../Server.hpp][842] - thread wait: 135320636315456
+[126-4-13 20:34:46][DEBUG][../Server.hpp][843] - 0x7b12c8ff9cb0
+[126-4-13 20:34:46][DEBUG][../Server.hpp][844] - thread awake: 135320636315456
+[126-4-13 20:35:15][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 20:35:15][INFO][../Server.hpp][1217] - new connection:0
+[126-4-13 20:35:15][DEBUG][../Server.hpp][990] - --- Established ---
+[126-4-13 20:35:15][DEBUG][../Server.hpp][272] - recv success:77
+[126-4-13 20:35:41][DEBUG][../Server.hpp][1009] - ---- released ----16
+[126-4-13 20:35:41][INFO][../Server.hpp][1010] - client-0 left......
+[126-4-13 20:35:41][DEBUG][../Server.hpp][1192] - Remove connection: 0 use_count: 3
+[126-4-13 20:35:41][DEBUG][../Server.hpp][1066] - closed: 0x576441d3ede0
+[126-4-13 20:35:41][DEBUG][../Server.hpp][168] - close socket 16
+[126-4-13 20:35:54][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 20:35:54][INFO][../Server.hpp][1217] - new connection:1
+[126-4-13 20:35:54][DEBUG][../Server.hpp][990] - --- Established ---
+[126-4-13 20:35:54][DEBUG][../Server.hpp][272] - recv success:77
+[126-4-13 20:36:10][DEBUG][../Server.hpp][1009] - ---- released ----16
+[126-4-13 20:36:10][INFO][../Server.hpp][1010] - client-1 left......
+[126-4-13 20:36:10][DEBUG][../Server.hpp][1192] - Remove connection: 1 use_count: 3
+[126-4-13 20:36:10][DEBUG][../Server.hpp][1066] - closed: 0x576441d3ede0
+[126-4-13 20:36:10][DEBUG][../Server.hpp][168] - close socket 16
+[126-4-13 20:37:11][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 20:37:11][INFO][../Server.hpp][1217] - new connection:2
+[126-4-13 20:37:11][DEBUG][../Server.hpp][990] - --- Established ---
+[126-4-13 20:37:11][DEBUG][../Server.hpp][272] - recv success:231
+[126-4-13 20:37:11][INFO][Http.hpp][738] - client-2 visit /png.html
+[126-4-13 20:37:11][INFO][Http.hpp][738] - client-2 visit 
+[126-4-13 20:37:11][INFO][Http.hpp][738] - client-2 visit 
+[126-4-13 20:37:11][INFO][Http.hpp][738] - client-2 visit 
+[126-4-13 20:37:11][INFO][Http.hpp][738] - client-2 visit 
+[126-4-13 20:37:11][DEBUG][../Server.hpp][286] - send success
+[126-4-13 20:37:11][DEBUG][../Server.hpp][1009] - ---- released ----16
+[126-4-13 20:37:11][INFO][../Server.hpp][1010] - client-2 left......
+[126-4-13 20:37:11][DEBUG][../Server.hpp][1192] - Remove connection: 2 use_count: 3
+[126-4-13 20:37:11][DEBUG][../Server.hpp][1066] - closed: 0x576441d3ede0
+[126-4-13 20:37:11][DEBUG][../Server.hpp][168] - close socket 16
+[126-4-13 20:46:28][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 20:46:28][INFO][../Server.hpp][1217] - new connection:3
+[126-4-13 20:46:28][DEBUG][../Server.hpp][990] - --- Established ---
+[126-4-13 20:46:28][DEBUG][../Server.hpp][272] - recv success:231
+[126-4-13 20:46:28][INFO][Http.hpp][738] - client-3 visit /png.html
+[126-4-13 20:46:28][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:46:28][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:46:28][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:46:28][INFO][Http.hpp][738] - client-3 visit 
+[126-4-13 20:46:28][DEBUG][../Server.hpp][286] - send success
+[126-4-13 20:46:28][DEBUG][../Server.hpp][1009] - ---- released ----16
+[126-4-13 20:46:28][INFO][../Server.hpp][1010] - client-3 left......
+[126-4-13 20:46:28][DEBUG][../Server.hpp][1192] - Remove connection: 3 use_count: 3
+[126-4-13 20:46:28][DEBUG][../Server.hpp][1066] - closed: 0x576441d3ede0
+[126-4-13 20:46:28][DEBUG][../Server.hpp][168] - close socket 16
+[126-4-13 21:18:52][INFO][../Server.hpp][1217] - new connection:0
+[126-4-13 21:18:52][INFO][Http.hpp][738] - client-0 visit /login
+[126-4-13 21:19:22][INFO][../Server.hpp][1010] - client-0 left......
+[126-4-13 21:20:10][INFO][../Server.hpp][1217] - new connection:1
+[126-4-13 21:20:10][INFO][Http.hpp][738] - client-1 visit /login
+[126-4-13 21:20:13][INFO][../Server.hpp][1010] - client-1 left......
+[126-4-13 21:21:7][INFO][../Server.hpp][1217] - new connection:2
+[126-4-13 21:21:12][INFO][../Server.hpp][1217] - new connection:3
+[126-4-13 21:21:12][INFO][Http.hpp][738] - client-3 visit /login
+[126-4-13 21:21:12][INFO][../Server.hpp][1217] - new connection:4
+[126-4-13 21:21:15][INFO][Http.hpp][738] - client-3 visit /login
+[126-4-13 21:21:20][INFO][Http.hpp][738] - client-3 visit /Login.html
+[126-4-13 21:21:37][INFO][Http.hpp][738] - client-2 visit /register
+[126-4-13 21:21:37][INFO][../Server.hpp][1010] - client-2 left......
+[126-4-13 21:21:42][INFO][../Server.hpp][1010] - client-4 left......
+[126-4-13 21:21:50][INFO][../Server.hpp][1010] - client-3 left......
+[126-4-13 21:27:38][INFO][../Server.hpp][1217] - new connection:5
+[126-4-13 21:27:38][INFO][Http.hpp][738] - client-5 visit /
+[126-4-13 21:27:38][INFO][../Server.hpp][1010] - client-5 left......
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:6
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-6 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-6 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-6 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-6 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-6 visit 
+[126-4-13 21:33:24][INFO][../Server.hpp][1010] - client-6 left......
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:7
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-7 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-7 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-7 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-7 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-7 visit 
+[126-4-13 21:33:24][INFO][../Server.hpp][1010] - client-7 left......
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:8
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:9
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:10
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:11
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:12
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:13
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-13 visit 
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:14
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-13 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-14 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-13 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-14 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-13 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-14 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-13 visit 
+[126-4-13 21:33:24][INFO][../Server.hpp][1010] - client-13 left......
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-14 visit 
+[126-4-13 21:33:24][INFO][Http.hpp][738] - client-14 visit 
+[126-4-13 21:33:24][INFO][../Server.hpp][1010] - client-14 left......
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:15
+[126-4-13 21:33:24][INFO][../Server.hpp][1217] - new connection:16
+[126-4-13 21:33:25][INFO][../Server.hpp][1217] - new connection:17
+[126-4-13 21:33:25][INFO][Http.hpp][738] - client-17 visit 
+[126-4-13 21:33:25][INFO][Http.hpp][738] - client-17 visit 
+[126-4-13 21:33:25][INFO][Http.hpp][738] - client-17 visit 
+[126-4-13 21:33:25][INFO][Http.hpp][738] - client-17 visit 
+[126-4-13 21:33:25][INFO][Http.hpp][738] - client-17 visit 
+[126-4-13 21:33:25][INFO][../Server.hpp][1010] - client-17 left......
+[126-4-13 21:33:26][INFO][../Server.hpp][1217] - new connection:18
+[126-4-13 21:33:26][INFO][Http.hpp][738] - client-18 visit 
+[126-4-13 21:33:26][INFO][Http.hpp][738] - client-18 visit 
+[126-4-13 21:33:26][INFO][Http.hpp][738] - client-18 visit 
+[126-4-13 21:33:26][INFO][Http.hpp][738] - client-18 visit 
+[126-4-13 21:33:26][INFO][Http.hpp][738] - client-18 visit 
+[126-4-13 21:33:26][INFO][../Server.hpp][1010] - client-18 left......
+[126-4-13 21:33:29][INFO][../Server.hpp][1010] - client-12 left......
+[126-4-13 21:33:29][INFO][../Server.hpp][1010] - client-11 left......
+[126-4-13 21:33:29][INFO][../Server.hpp][1010] - client-15 left......
+[126-4-13 21:33:29][INFO][../Server.hpp][1010] - client-8 left......
+[126-4-13 21:33:29][INFO][../Server.hpp][1010] - client-16 left......
+[126-4-13 21:33:30][INFO][../Server.hpp][1010] - client-10 left......
+[126-4-13 21:33:30][INFO][../Server.hpp][1010] - client-9 left......
+[126-4-13 21:37:30][DEBUG][../Server.hpp][180] - create socket success
+[126-4-13 21:37:30][DEBUG][../Server.hpp][197] - bind success
+[126-4-13 21:37:30][DEBUG][../Server.hpp][210] - listen success
+[126-4-13 21:37:47][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 21:37:47][INFO][../Server.hpp][1245] - new connection:0
+[126-4-13 21:37:47][DEBUG][../Server.hpp][1018] - --- Established ---
+[126-4-13 21:37:47][DEBUG][../Server.hpp][252] - accept success
+[126-4-13 21:37:47][INFO][../Server.hpp][1245] - new connection:1
+[126-4-13 21:37:47][DEBUG][../Server.hpp][1018] - --- Established ---
+[126-4-13 21:58:38][ERROR][../Server.hpp][194] - bind error

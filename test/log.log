@@ -1,0 +1,25 @@
+
+================================================================
+⚠️  Server received fatal signal: 11
+Stack trace:
+./test(+0x1400)[0x61ff71753400]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x74dbeb245330]
+./test(+0x158f)[0x61ff7175358f]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x74dbeb22a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x74dbeb22a28b]
+./test(+0x1245)[0x61ff71753245]
+================================================================
+
+bash: ./test: No such file or directory
+
+================================================================
+⚠️  Server received fatal signal: 11
+Stack trace:
+./test(+0x1400)[0x5bae8b647400]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x743cf9245330]
+./test(+0x158f)[0x5bae8b64758f]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x743cf922a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x743cf922a28b]
+./test(+0x1245)[0x5bae8b647245]
+================================================================
+

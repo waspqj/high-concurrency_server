@@ -1,0 +1,37 @@
+[126-4-15 19:33:45][INFO][../Server.hpp:1272] - new connection:988557
+[126-4-15 19:33:45][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0
+[126-4-15 19:33:45][INFO][Http.hpp:750] - client-988557 visit /
+[126-4-15 19:33:45][INFO][../Server.hpp:1039] - client-988557 left......
+[126-4-15 20:17:13][INFO][../Server.hpp:1272] - new connection:988558
+[126-4-15 20:17:13][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+[126-4-15 20:17:13][INFO][Http.hpp:750] - client-988558 visit /
+[126-4-15 20:17:15][INFO][../Server.hpp:1272] - new connection:988559
+[126-4-15 20:17:15][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Linux; Android 16; 23113RKC6C Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/7152 REV/b5408d080dfe6c8bc9d1bf572de9fe4c12d99fe0 MicroMessenger/8.0.71.3080(0x28004750) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64
+[126-4-15 20:17:15][INFO][Http.hpp:750] - client-988559 visit /
+[126-4-15 20:17:15][INFO][../Server.hpp:1272] - new connection:988560
+[126-4-15 20:17:15][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Linux; Android 16; 23113RKC6C Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/7152 REV/b5408d080dfe6c8bc9d1bf572de9fe4c12d99fe0 MicroMessenger/8.0.71.3080(0x28004750) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64
+[126-4-15 20:17:15][INFO][Http.hpp:750] - client-988560 visit /favicon.ico
+[126-4-15 20:17:16][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Linux; Android 16; 23113RKC6C Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/7152 REV/b5408d080dfe6c8bc9d1bf572de9fe4c12d99fe0 MicroMessenger/8.0.71.3080(0x28004750) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64
+[126-4-15 20:17:16][INFO][Http.hpp:750] - client-988559 visit /Login.html
+[126-4-15 20:17:19][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Linux; Android 16; 23113RKC6C Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/7152 REV/b5408d080dfe6c8bc9d1bf572de9fe4c12d99fe0 MicroMessenger/8.0.71.3080(0x28004750) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64
+[126-4-15 20:17:19][INFO][Http.hpp:750] - client-988559 visit /login
+[126-4-15 20:17:20][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 (Linux; Android 16; 23113RKC6C Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/7152 REV/b5408d080dfe6c8bc9d1bf572de9fe4c12d99fe0 MicroMessenger/8.0.71.3080(0x28004750) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64
+[126-4-15 20:17:20][INFO][Http.hpp:750] - client-988560 visit /api/roll
+[126-4-15 20:17:27][INFO][../Server.hpp:1039] - client-988558 left......
+[126-4-15 20:17:33][INFO][../Server.hpp:1039] - client-988559 left......
+[126-4-15 20:17:34][INFO][../Server.hpp:1039] - client-988560 left......
+[126-4-15 20:23:54][INFO][../Server.hpp:1272] - new connection:988561
+[126-4-15 20:23:54][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36
+[126-4-15 20:23:54][INFO][Http.hpp:750] - client-988561 visit /robots.txt
+[126-4-15 20:23:54][INFO][../Server.hpp:1039] - client-988561 left......
+[126-4-15 20:24:1][INFO][../Server.hpp:1272] - new connection:988562
+[126-4-15 20:24:1][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36
+[126-4-15 20:24:1][INFO][Http.hpp:750] - client-988562 visit /Register.html
+[126-4-15 20:24:1][INFO][../Server.hpp:1039] - client-988562 left......
+[126-4-15 20:33:45][INFO][../Server.hpp:1272] - new connection:988563
+[126-4-15 20:33:45][INFO][Http.hpp:587] - User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36
+[126-4-15 20:33:45][INFO][Http.hpp:750] - client-988563 visit /Register.html
+[126-4-15 20:33:45][INFO][../Server.hpp:1039] - client-988563 left......
+[126-4-15 20:38:42][INFO][../Server.hpp:1272] - new connection:988564
+[126-4-15 20:38:42][INFO][Http.hpp:750] - client-988564 visit /
+[126-4-15 20:38:42][INFO][../Server.hpp:1039] - client-988564 left......

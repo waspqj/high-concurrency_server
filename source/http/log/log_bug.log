@@ -1,0 +1,62 @@
+[126-4-12 22:50:42][INFO][../Server.hpp][1215] - new connection:0
+[126-4-12 22:50:42][INFO][../Server.hpp][1215] - new connection:1
+[126-4-12 22:50:42][INFO][Http.hpp][738] - client-0 visit /
+[126-4-12 22:51:6][INFO][../Server.hpp][1008] - client-0 left......
+[126-4-12 22:51:6][INFO][../Server.hpp][1008] - client-1 left......
+[126-4-12 22:53:22][INFO][../Server.hpp][1215] - new connection:2
+[126-4-12 22:53:22][INFO][Http.hpp][738] - client-2 visit /
+[126-4-12 22:53:24][INFO][../Server.hpp][1215] - new connection:3
+[126-4-12 22:53:24][INFO][Http.hpp][738] - client-3 visit /
+[126-4-12 22:53:27][INFO][Http.hpp][738] - client-3 visit /png.html
+[126-4-12 22:53:27][INFO][Http.hpp][738] - client-3 visit /image/1.jpg
+[126-4-12 22:53:27][INFO][../Server.hpp][1215] - new connection:4
+[126-4-12 22:53:27][INFO][Http.hpp][738] - client-4 visit /image/2.png
+[126-4-12 22:53:30][INFO][../Server.hpp][1008] - client-4 left......
+[126-4-12 22:53:35][INFO][Http.hpp][738] - client-3 visit /
+[126-4-12 22:53:36][INFO][Http.hpp][738] - client-3 visit /Login.html
+[126-4-12 22:53:47][INFO][../Server.hpp][1008] - client-2 left......
+[126-4-12 22:54:5][INFO][../Server.hpp][1008] - client-3 left......
+[126-4-12 22:54:20][INFO][../Server.hpp][1215] - new connection:5
+[126-4-12 22:54:26][INFO][../Server.hpp][1215] - new connection:6
+[126-4-12 22:54:26][INFO][Http.hpp][738] - client-6 visit /
+[126-4-12 22:54:26][INFO][../Server.hpp][1215] - new connection:7
+[126-4-12 22:54:26][INFO][Http.hpp][738] - client-7 visit /favicon.ico
+[126-4-12 22:54:26][INFO][Http.hpp][738] - client-5 visit /robots.txt
+[126-4-12 22:54:26][INFO][../Server.hpp][1008] - client-5 left......
+[126-4-12 22:54:27][INFO][Http.hpp][738] - client-6 visit /Register.html
+[126-4-12 22:54:32][INFO][Http.hpp][738] - client-6 visit /register
+[126-4-12 22:54:32][INFO][../Server.hpp][1215] - new connection:8
+[126-4-12 22:54:32][INFO][Http.hpp][738] - client-8 visit /Register.html
+[126-4-12 22:54:32][INFO][../Server.hpp][1008] - client-8 left......
+[126-4-12 22:54:56][INFO][../Server.hpp][1008] - client-7 left......
+[126-4-12 22:55:1][INFO][../Server.hpp][1008] - client-6 left......
+[126-4-12 22:55:30][INFO][../Server.hpp][1215] - new connection:9
+[126-4-12 22:55:30][INFO][Http.hpp][738] - client-9 visit /
+[126-4-12 22:55:30][INFO][../Server.hpp][1215] - new connection:10
+[126-4-12 22:55:30][INFO][Http.hpp][738] - client-10 visit /favicon.ico
+[126-4-12 22:55:31][INFO][Http.hpp][738] - client-9 visit /Register.html
+[126-4-12 22:55:37][INFO][../Server.hpp][1215] - new connection:11
+[126-4-12 22:55:37][INFO][Http.hpp][738] - client-11 visit /
+[126-4-12 22:55:38][INFO][Http.hpp][738] - client-11 visit /Login.html
+[126-4-12 22:55:39][INFO][Http.hpp][738] - client-11 visit /login
+[126-4-12 22:55:40][INFO][Http.hpp][738] - client-9 visit /register
+[126-4-12 22:55:43][INFO][Http.hpp][738] - client-9 visit /Login.html
+[126-4-12 22:55:44][INFO][Http.hpp][738] - client-11 visit /api/roll
+[126-4-12 22:55:46][INFO][Http.hpp][738] - client-11 visit /image/star.html
+[126-4-12 22:55:47][INFO][Http.hpp][738] - client-9 visit /login
+[126-4-12 22:55:49][INFO][Http.hpp][738] - client-10 visit /api/roll
+[126-4-12 22:55:51][INFO][Http.hpp][738] - client-10 visit /api/roll
+[126-4-12 22:55:52][INFO][Http.hpp][738] - client-10 visit /api/roll
+[126-4-12 22:55:55][INFO][Http.hpp][738] - client-9 visit /punish
+[126-4-12 22:56:2][INFO][Http.hpp][738] - client-11 visit /api/roll
+[126-4-12 22:56:3][INFO][Http.hpp][738] - client-11 visit /api/roll
+[126-4-12 22:56:4][INFO][Http.hpp][738] - client-11 visit /punish
+[126-4-12 22:56:22][INFO][../Server.hpp][1008] - client-10 left......
+[126-4-12 22:56:24][INFO][../Server.hpp][1008] - client-9 left......
+[126-4-12 22:56:33][INFO][../Server.hpp][1008] - client-11 left......
+[126-4-12 22:59:5][INFO][../Server.hpp][1215] - new connection:12
+[126-4-12 22:59:5][INFO][Http.hpp][738] - client-12 visit /
+[126-4-12 22:59:6][INFO][Http.hpp][738] - client-12 visit /favicon.ico
+[126-4-12 22:59:13][INFO][../Server.hpp][1215] - new connection:13
+[126-4-12 22:59:13][INFO][Http.hpp][738] - client-13 visit http://ip-api.com/json/
+

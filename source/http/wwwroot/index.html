@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页 | 欢迎</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        .greeting {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 32px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 24px;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 32px;
+        }
+        .btn {
+            padding: 10px 24px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            border: 2px solid #667eea;
+            color: #667eea;
+        }
+        .btn-outline:hover {
+            background: #667eea;
+            color: white;
+        }
+        .footer {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+        }
+        .status {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.5; transform: scale(1); }
+            100% { opacity: 1; transform: scale(1.2); }
+        }
+        .online {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            color: #10b981;
+            margin-top: 16px;
+        }
+        @media (max-width: 500px) {
+            .card {
+                padding: 32px 24px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🏠 Waspqj</h1>
+        <div class="greeting">
+            欢迎……<br>
+            请注册登录
+        </div>
+        
+        <div class="nav-buttons">
+            <a href="./Login.html" class="btn btn-primary" >登录</a>
+            <a href="./Register.html" class="btn btn-outline" id="registerBtn">注册</a>
+        <div class="image">
+            <a href="./png.html">查看图片</a>
+            <!-- <img src="./image/1.jpg"/> -->
+            <!-- <a href="./image/2.png">查看图片</a> -->
+            <!-- <a href="./image/1.jpg"/> -->
+        
+        <div class="online">
+            <span class="status"></span>
+            服务状态 · 在线
+        </div>
+        
+        <div class="footer">
+            © Waspqj 个人项目 | 简洁 · 现代 · 轻量
+        </div>
+    </div>
+
+    <script>
+        // 简单的按钮交互演示
+        document.getElementById('loginBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('演示模式：跳转到登录页\n实际开发中可替换为真实链接');
+        });
+        document.getElementById('registerBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('演示模式：跳转到注册页');
+        });
+    </script>
+</body>
+</html>
